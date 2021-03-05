@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" class="stylesheet">
+    <title>Travel Plan | Home</title>
+    <navbar class="navbar">
+        <ul class="items">
+            <li><a class="header" href="index.html">
+                    <div class="travel">Travel</div><div class="plan">Plan</div>
+                </a></li>
+            <li><a id="dashboard" href="dashboard.html">Dashboard</a></li>
+            <li><a id="home" class="active" href="index.html">Home</a></li>
+        </ul>
+    </navbar>
+</head>
+
+<body>
+    <div class="container">
+        <button id="start" class="start">Start Planning</button>
+        <div class="popup">
+            <header class="title">- Destination Form -</header>
+            <form class="form" id="form">
+                <label for="country">Choose a Country</label><br/>
+                <input type="text" name="country" id="country"> <br/>
+                <label for="destination">Choose a Destination</label><br/>
+                <input type="text" name="destination" id="destination"><br/>
+                <button type="submit" id="submit" class="submit">Add</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
